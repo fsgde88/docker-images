@@ -28,6 +28,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://registry.cn-guangzhou.aliyuncs.com/gorgor1065/ngnix:latest
-         
+         docker://docker.io/mysql:lastest
          
          
